@@ -11,6 +11,7 @@
 
 
 -UI화면의 구성
+
 ![1](https://user-images.githubusercontent.com/58063370/73431797-8edfd800-4384-11ea-97ea-b42bc6240849.png)
 
 ①	HerkuleX와 PC간의 통신연결 및 Motor의 토크/브레이크 제어.
@@ -37,7 +38,9 @@
 	HerkuleX의 현재 각도를 확인하기 위해서는 ‘Set Angle Call’버튼을 클릭하여 데이터를 요청하고, ‘Get Angle Data’버튼을 클릭하여 각도 값을 확인.
 ⑦	HerkuleX의 상태 확인기능.
 	‘Get Status’버튼을 클릭하여, HerkuleX’의 상태정보를 요청하고, ‘View Status’버튼을 클릭하여 상태정보를 메시지 박스형태로 확인가능.
+
 ![11](https://user-images.githubusercontent.com/58063370/73431856-b898ff00-4384-11ea-9cc4-10875f634882.png)
+
 	위의 그림과 같은 경우는 Min Position의 범위를 넘어서 위치제어를 시도한 상태이기 때문에 Position Limit Error가 ‘1’로 되어 있는 것을 볼 수 있음.
 ⑧	HerkuleX의 Error해제 및 공장초기화, 리부팅 기능.
 	발생된 Error의 해제와 RAM & EEP의 Data를 모두 공장 초기화, 전원의 Off->On을 호출.
