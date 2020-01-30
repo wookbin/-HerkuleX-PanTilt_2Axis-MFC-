@@ -14,12 +14,12 @@
 
 ![1](https://user-images.githubusercontent.com/58063370/73431797-8edfd800-4384-11ea-97ea-b42bc6240849.png)
 
-①	HerkuleX와 PC간의 통신연결 및 Motor의 토크/브레이크 제어.
-	Connect버튼: COM Port 3번에 115,200bps로 시리얼 통신연결 후 Initialize함수 호출.
-	Disconnect버튼: 통신연결 해제.
-	Torque On버튼: Motor의 Servo Enable을 호출.
-	Torque Off버튼: Motor의 Servo Disable을 호출.
-	Brake On버튼: Motor의 Brake기능을 호출.
+①	HerkuleX와 PC간의 통신연결 및 Motor의 토크/브레이크 제어.\n
+	Connect버튼: COM Port 3번에 115,200bps로 시리얼 통신연결 후 Initialize함수 호출.\n
+	Disconnect버튼: 통신연결 해제.\n
+	Torque On버튼: Motor의 Servo Enable을 호출.\n
+	Torque Off버튼: Motor의 Servo Disable을 호출.\n
+	Brake On버튼: Motor의 Brake기능을 호출.\n
 ②	RAM Register & EEP Register의 데이터 읽기 요청 및 데이터 확인 기능.
 	RAM Register의 주소를 입력하고, ‘SET’버튼을 클릭하면, 해당 주소의 데이터 요청.
 	데이터 요청 후 ‘GET’버튼을 클릭하면, HerkuleX로 부터 전달받은 RAM Data가 출력됨.
